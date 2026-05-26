@@ -26,6 +26,7 @@ jobs:
             --delete \
             --exclude ".git/*" \
             --exclude ".github/*" \
+            --exclude ".obsidian/*" \
             --exclude "README.md" \
             --exclude "INFORME.md" \
             --exclude "img/*"
