@@ -22,7 +22,7 @@ jobs:
 
       - name: Desplegar sitio a S3
         run: |
-          aws s3 sync . s3://bucket-falso-error-practica-cs24 \
+          aws s3 sync . s3://${{ vars.AWS_S3_BUCKET }} \
             --delete \
             --exclude ".git/*" \
             --exclude ".github/*" \
