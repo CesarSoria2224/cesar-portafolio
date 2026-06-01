@@ -306,3 +306,32 @@ La integración de Amazon CloudFront representó una mejora importante en la arq
 El uso de Origin Access Control permitió reforzar la seguridad limitando el acceso directo al origen.
 
 En conjunto, esta práctica permitió integrar desarrollo web, automatización CI/CD, despliegue cloud, seguridad de infraestructura y distribución de contenido, consolidando conocimientos prácticos aplicables en entornos reales.
+
+## 10. Comandos utilizados
+
+Inicialización del repositorio:
+
+```bash
+git init
+git add .
+git commit -m "feat: initial portfolio project"
+git branch -M main
+git remote add origin https://github.com/CesarSoria2224/cesar-portafolio.git
+git push -u origin main
+```
+
+Actualización del workflow:
+
+```bash
+git add .
+git commit -m "feat: completa despliegue CI/CD con CloudFront y documentacion final"
+git push origin main
+```
+
+Corrección del fallo intencional:
+
+```bash
+git add .
+git commit -m "fix: restauracion del bucket correcto"
+git push origin main
+```
